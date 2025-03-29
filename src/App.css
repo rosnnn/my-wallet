@@ -1,0 +1,81 @@
+  .App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #ffffff; /* White background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #333; /* Dark text for readability */
+  }
+  
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .send-tokens {
+    background: #111827; /* Dark blue-gray */
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }  
+  
+  .send-tokens h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #facc15; /* Gold color like Mint Tokens */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .send-tokens input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #1f2937; /* Darker input background */
+    border-radius: 6px;
+    color: white;
+    border: 1px solid #374151; /* Subtle border */
+  }
+  
+  .send-tokens button {
+    background: linear-gradient(to right, #fbbf24, #f59e0b); /* Orange gradient */
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .send-tokens button:hover {
+    background: linear-gradient(to right, #f59e0b, #d97706);
+  }
+  

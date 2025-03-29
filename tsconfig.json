@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Updated to es6 for modern features like BigInt
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noUnusedLocals": true, // Warn on unused variables
+    "noUnusedParameters": true // Warn on unused function parameters
+  },
+  "include": [
+    "src"
+  ]
+}
